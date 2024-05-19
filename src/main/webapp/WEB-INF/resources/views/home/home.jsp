@@ -13,7 +13,7 @@
 	<div id="title-bar">
 		<div style="margin-top:5px;">
 			<img src="<c:url value="/resources/home/img/logo.svg" />" width="20px" height="15px" id="logo">
-			<span id="logo-description">Facebook - 로그인 또는 가입</span>
+			<span id="logo-description">Facebook -dfdd 로그인 또는 가입</span>
 		</div>
 
 		<div>
