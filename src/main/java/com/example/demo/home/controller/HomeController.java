@@ -15,6 +15,10 @@ public class HomeController {
 		return "/home/home";
 	}
 	
-	
+	@GetMapping("homeInfo")
+	public String requestHomeInfo() {
+		System.out.println("home controller start");
+		return "/common/homeInfo";
+	}
 	
 }	
