@@ -1,0 +1,38 @@
+app: 
+  name: demo
+
+server: 
+  port: 8000
+  session: 
+    timeout: 12
+  #Spring boot에서는 Http Response Body를 압축할 수 있는 기능을 제공
+  compression: 
+    enabled: true # css, html 등 압축해서 전송할 때 이득이 되는 포맷들은 자동적으로 압축해서 보내는 설정
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain # Multipurpose Internet Mail Extensions(MIME) 파일 변환 - 인코딩방식
+  tomcat: 
+    uri-encoding: UTF-8
+    max-http-form-post-size: 200MB #HTTP Post 요청의 최대 form size
+    max-swallow-size: 200MB #request body의 최대 수용 크기
+  servlet: 
+    encoding: 
+      charset: UTF-8
+      enabled: true
+      force: true
+    jsp: 
+      init-parameters: 
+        development: true
+
+spring: 
+  mvc: 
+    view: 
+      prefix: /WEB-INF/resources/views/
+      suffix: .jsp
+  devtools:
+    livereload: 
+      enabled: true #라이브리로드 리소스가 변경될때 브라우저 새로고침을 강제로하기위한 설정.
+    restart:
+      enabled: true
+      
+  web:
+    resources:
+      static-locations: file:./src/main/webapp/WEB-INF/resources #정적경로에 접근하기 위한 설정 jsp에서 c태그 url 시 web-inf 접근이 가능하다 (원래는 web-inf접근 불가)
