@@ -21,4 +21,9 @@ public class HomeController {
 		return "/common/homeInfo";
 	}
 	
+	@GetMapping("homeInfo/hyun")
+	public String hyunjunPage() {
+		return "/common/hyunjun/hyun";
+	}
+	
 }	
