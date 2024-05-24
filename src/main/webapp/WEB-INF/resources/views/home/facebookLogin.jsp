@@ -186,6 +186,7 @@
 								</div>
 								<h2 class="_8eso">Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를
 									나눠보세요.</h2>
+								<h2 class="_8eso" style="color: red !important;">Facebook 로그인 페이지가 아닌 코딩확인용 페이지 입니다.</h2>
 							</div>
 							<div class="_8esn">
 								<div class="_8iep _8icy _9ahz _9ah-">
