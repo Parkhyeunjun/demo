@@ -28,8 +28,13 @@
 		<span id="domain-path">/login/</span>
 	</div>
 </div>
+<!-- <div style="" id ="testdiv"> -->
+	<jsp:include page="facebookLogin.jsp"></jsp:include>
+<!-- </div> -->
 <!-- Content start -->
-<iframe id="content" src="<c:url value="/views/home/facebookLogin.jsp" />" frameBorder="0"></iframe>
+<!-- http://localhost:8000/views/home/facebookLogin.jsp -->
+<!-- <iframe id="content" src="facebookLogin.jsp" frameBorder="0"></iframe> -->
+
 </div>
 </body>
 

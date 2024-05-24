@@ -14,7 +14,7 @@ body {
 }
 
 #title-bar {
-  height: 31px;
+  height: 36px;
   background-color: #d6dae0;
   width: 100%;
   display: flex;
@@ -103,5 +103,5 @@ body {
   border-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: 759px; /* title bar height + content height */
-  width: 40%;
+  width: 100%;
 }
